@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SHA="58870053810126d2ac96f689eba47f706d5f8cc6"
+SHA=${SHA:-52630e6b4743e50d357833f284a7695967160ce9}
 
 git clone https://github.com/incfly/kptsample-child
 pushd kptsample-child
