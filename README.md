@@ -23,9 +23,8 @@ why not git submodule:
 
 Done.
 
-## Upgrade Steps, for User
+## Update Child for a New Release, for Dev
 
-## Update Child, for Dev
 
-export SHA="abc" && ./update.sh
+1. Point to a new SHA, export SHA="abc" && ./update.sh
 
