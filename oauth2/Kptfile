@@ -1,0 +1,13 @@
+apiVersion: kpt.dev/v1alpha1
+kind: Kptfile
+metadata:
+    name: oauth2
+upstream:
+    type: git
+    git:
+        commit: 52630e6b4743e50d357833f284a7695967160ce9
+        repo: https://github.com/incfly/kptsample-child
+        directory: oauth2
+        ref: v0.1
+packageMetadata:
+    shortDescription: kpt sample packge, a child repo.
