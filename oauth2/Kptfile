@@ -5,9 +5,9 @@ metadata:
 upstream:
     type: git
     git:
-        commit: 52630e6b4743e50d357833f284a7695967160ce9
+        commit: 58870053810126d2ac96f689eba47f706d5f8cc6
         repo: https://github.com/incfly/kptsample-child
         directory: oauth2
-        ref: v0.1
+        ref: v1
 packageMetadata:
     shortDescription: kpt sample packge, a child repo.

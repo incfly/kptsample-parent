@@ -1,5 +1,5 @@
 # NOTE: auto-generated. Some fields should NOT be modified.
-# Date: 2020-07-06 04:41:52 UTC
+# Date: 2020-07-06 04:49:50 UTC
 #
 # Contains the "grouping object" template ConfigMap.
 # When this object is applied, it is handled specially,
@@ -32,4 +32,4 @@ metadata:
     # Changing this value will cause a loss of continuity
     # with previously applied grouped objects. Set deletion
     # and pruning functionality will be impaired.
-    cli-utils.sigs.k8s.io/inventory-id: 0e357f24-c982-4b3f-ad85-ff2c6e8bd86e
+    cli-utils.sigs.k8s.io/inventory-id: dff1ef33-cb40-48a1-a7e4-64b8b8fa837d

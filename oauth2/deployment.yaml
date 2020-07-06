@@ -21,11 +21,6 @@ metadata:
   name: httpbin
 ---
 apiVersion: v1
-kind: ServiceAccount
-metadata:
-  name: httpbin-sa-foo
----
-apiVersion: v1
 kind: Service
 metadata:
   name: httpbin

@@ -4,11 +4,15 @@ why not git submodule:
 
  1. not needed, when we require change on parent repo meanwhile consume remote upstream updates, https://git-scm.com/book/en/v2/Git-Tools-Submodules
 
+## Step 0, Parent package already done prior release
+
+1. `kpt pkg get https://github.com/incfly/kptsample-child/oauth2@v1  oauth2`.
+
 ## Installation Steps, for User
 
  1. `kpt live init oauth2/`
      Initialized: ./oauth2/grouping-object-template.yaml
- 1.  `kpt live apply helloworld`
+ 1. `kpt live apply helloworld`
  
    ```
    configmap/grouping-object-9c263c7f configured
@@ -24,5 +28,4 @@ why not git submodule:
 
 ## Customer update to a specific SHA of child repo.
 
-1. `kpt pkg get https://github.com/incfly/kptsample-child/oauth2@v0.2  oauth2`
 
